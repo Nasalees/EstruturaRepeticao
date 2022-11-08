@@ -8,15 +8,13 @@ encerrado. Considere que a senha correta é o valor 2002.*/
 int main(){
     int senha, i;
 
-    printf("Digite a senha");
+    printf("Digite a senha ");
     scanf("%d", &senha);
 
     while (senha != 2002)
     {
-        i++;
-
         if(senha != 2002){
-            printf("Senha Invalida! Tente novamente:");
+            printf("Senha Invalida! Tente novamente: ");
             scanf("%d", &senha);
         }
     }
