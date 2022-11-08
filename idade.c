@@ -11,19 +11,20 @@ printf("Digite as idades\n");
 scanf("%d", &idade);
 
 while (idade > 0){
-  i++ ; 
-    if (idade < 0){
-        printf("IMPOSSIVEL CALULAR");
-        return 0;
-    }
- soma = soma + idade;
- scanf("%d", &idade);
- 
+  i++; 
+  soma = soma + idade;
+  scanf("%d", &idade);
 }
 
-media = soma / i;
-printf("MEDIA DAS IDADES: %d anos", media);  
+ if (i == 0){
+      printf("IMPOSSIVEL CALULAR");
+      return 0;
+    }else{
+      media = soma / i;
+      printf("MEDIA DAS IDADES: %d anos", media); 
+    }
+ 
 
 
-    return 0;
+  return 0;
 }
