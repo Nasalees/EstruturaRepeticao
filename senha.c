@@ -6,7 +6,7 @@ for informada corretamente deve ser impressa a mensagem "Acesso Permitido" e o a
 encerrado. Considere que a senha correta é o valor 2002.*/
 
 int main(){
-int senha, i;
+int senha;
 
     printf("Digite a senha: ");
     scanf("%d", &senha);
