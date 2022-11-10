@@ -18,7 +18,7 @@ while (x != 0 && y != 0)
         printf("QUADRANTE Q2\n");
 
     }else if (x < 0 && y < 0){
-        printf("QUADRANTE Q3");
+        printf("QUADRANTE Q3\n");
         
     }else{
        printf("QUADRANTE Q4\n"); 
