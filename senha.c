@@ -16,7 +16,7 @@ int senha;
         scanf("%d", &senha);
         
     }
-printf("Acesso permitido!");
+printf("Acesso liberado!");
     
     
 
